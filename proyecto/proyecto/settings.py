@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(hmd_6n(sbw7yzki=1ul%#($-ffw8)hqpwxyf9^e@++kqi85x@
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL  = 'servicios.UserProfile'
 
 # Application definition
 
@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'servicios'
+    'nested_admin',
+    'servicios',
+    'ubicacion'
 ]
 
 MIDDLEWARE = [
@@ -81,7 +83,6 @@ DATABASES = {
     }
 }
 
-AUTH_USER_MODEL = 'servicios.UserProfile'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-CO'
 
 TIME_ZONE = 'UTC'
 
@@ -123,3 +124,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
