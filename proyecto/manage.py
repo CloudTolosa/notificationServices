@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    os.system ("cls")
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proyecto.settings')
     try:
@@ -19,4 +20,5 @@ def main():
 
 
 if __name__ == '__main__':
+    os.system ("cls")
     main()
