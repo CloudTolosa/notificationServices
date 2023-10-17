@@ -1,0 +1,43 @@
+{% load static %}
+<html>
+    <head>
+        <title>Noti Ciudad Bolivar</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/servicios.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="sidebar">
+                <div class="login-container">
+                    <form class="login-form">
+                        <h2 class="mb-4">Registrate</h2>
+                        <div class="form-group">
+                            <label for="numeroCelular">Número de Celular:</label>
+                            <input type="tel" class="form-control" id="numeroCelular" placeholder="Ingresa tu número de celular" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="barrio">Barrio:</label>
+                            <select class="form-control" id="barrio">
+                                <option>Barrio 1</option>
+                                <option>Barrio 2</option>
+                                <option>Barrio 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="terminos">
+                            <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Regístrese</button>
+                    </form>
+                </div>
+            </div>
+            <div class="main-content">
+                <h2>Notificaciones</h2>
+                <h2>Ciudad Bolivar</h2>
+                <p>Para mantenerte informado y prevenido, te ofrecemos la suscripción a las alertas de interrupciones de servicio en tu área. No te sorprendas más por cortes inesperados. ¡Es fácil! Simplemente ingresa tu número de celular y recibirás periódicamente estas y otras actualizaciones importantes.</p>
+            </div>
+        </div>
+    </body>
+</html>

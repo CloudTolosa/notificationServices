@@ -21,4 +21,5 @@ from django.conf.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('_nested_admin/', include('nested_admin.urls')),
+    path('', include('servicios.urls')),
 ]
