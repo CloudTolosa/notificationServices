@@ -42,7 +42,12 @@ body {
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width: 1023px) {
     .grid-container {
         grid-template-columns: 1fr;
     }

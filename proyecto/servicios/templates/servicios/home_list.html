@@ -6,8 +6,13 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/servicios.css' %}">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    </head>
-    <body>
+        <style>
+            #map {
+                height: 400px;
+                width: 100%;
+            }
+        </style>
+        <body>
         <div class="grid-container">
             <div class="sidebar">
                 <div class="login-container">
@@ -36,7 +41,35 @@
             <div class="main-content">
                 <h2>Notificaciones</h2>
                 <h2>Ciudad Bolivar</h2>
-                <p>Para mantenerte informado y prevenido, te ofrecemos la suscripción a las alertas de interrupciones de servicio en tu área. No te sorprendas más por cortes inesperados. ¡Es fácil! Simplemente ingresa tu número de celular y recibirás periódicamente estas y otras actualizaciones importantes.</p>
+                <p>
+                    Para mantenerte informado y prevenido, te ofrecemos la 
+                    suscripción a las alertas de interrupciones de servicio en tu área. 
+                    No te sorprendas más por cortes inesperados. ¡Es fácil! Simplemente 
+                    ingresa tu número de celular y recibirás periódicamente estas y otras 
+                    actualizaciones importantes.
+                </p>
+                <div id="map"></div>
+                <script>
+                    function initMap(){
+                        let city_bolivar = {lat: 4.5441, lng: -74.1535}
+                        let map = new google.maps.Map(
+                            document.getElementById('map'), {zoom: 13, center: city_bolivar}
+                        );
+                        var locations = [
+                            {lat: 4.5358, lng: -74.1573}, // Madelena
+                            {lat: 4.5477, lng: -74.1629}, // San Francisco
+                            {lat: 4.5423, lng: -74.1535}  // Calendario La Nueva
+                        ];
+
+                        locations.forEach(function(location) {
+                            var marker = new google.maps.Marker({
+                                position: location,
+                                map: map
+                            });
+                        });
+                    }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"></script>
             </div>
         </div>
     </body>
