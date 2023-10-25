@@ -16,19 +16,16 @@
         <div class="grid-container">
             <div class="sidebar">
                 <div class="login-container">
-                    <form class="login-form">
+                    <form class="login-form"  method="post">
+                        {% csrf_token %}
                         <h2 class="mb-4">Registrate</h2>
                         <div class="form-group">
                             <label for="numeroCelular">Número de Celular:</label>
-                            <input type="tel" class="form-control" id="numeroCelular" placeholder="Ingresa tu número de celular" required>
+                            <input type="tel" class="form-control" id="numeroCelular" name="username" placeholder="Ingresa tu número de celular" required>
                         </div>
                         <div class="form-group">
-                            <label for="barrio">Barrio:</label>
-                            <select class="form-control" id="barrio">
-                                <option>Barrio 1</option>
-                                <option>Barrio 2</option>
-                                <option>Barrio 3</option>
-                            </select>
+                            <label for="{{ form.barrio.id_for_label }}">Barrio:</label>
+                            {{ form.barrio }}
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="terminos">
@@ -55,12 +52,7 @@
                         let map = new google.maps.Map(
                             document.getElementById('map'), {zoom: 13, center: city_bolivar}
                         );
-                        var locations = [
-                            {lat: 4.5358, lng: -74.1573}, // Madelena
-                            {lat: 4.5477, lng: -74.1629}, // San Francisco
-                            {lat: 4.5423, lng: -74.1535}  // Calendario La Nueva
-                        ];
-
+                        
                         locations.forEach(function(location) {
                             var marker = new google.maps.Marker({
                                 position: location,

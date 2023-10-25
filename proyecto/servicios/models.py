@@ -11,11 +11,6 @@ from ubicacion.models import Barrio
 
 class UserProfile(AbstractUser):
     barrio = models.ForeignKey(Barrio, on_delete = models.CASCADE,null=True)
-    whatsapp = models.BooleanField(default=True)
-    message = models.BooleanField(default=True)
-
-
-
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
