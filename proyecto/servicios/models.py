@@ -20,3 +20,7 @@ def create_user_profile(sender, instance, created, **kwargs):
 @receiver(post_save, sender=User)
 def save_user_profile(sender, instance, **kwargs):
     instance.userprofile.save()
+
+@receiver(post_save, sender=User)
+def send_message_welcome(sender, instance, **kwargs):
+    print("La función ha sido ejecutada.")
