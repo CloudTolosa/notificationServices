@@ -1,0 +1,1236 @@
+[
+    {
+      "model": "hr.Barrio",
+      "pk": 1,
+      "fields": {
+        "name": "La Lira",
+        "latitud": "4.559468",
+        "longitud": "-74.141778"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 2,
+      "fields": {
+        "name": "El Pedregal",
+        "latitud": "4.521872",
+        "longitud": "-74.114048"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 3,
+      "fields": {
+        "name": "Villa Jacky",
+        "latitud": "4.543582",
+        "longitud": "-74.135646"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 4,
+      "fields": {
+        "name": "las Manas",
+        "latitud": "4.539121",
+        "longitud": "-74.132215"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 5,
+      "fields": {
+        "name": "Mochuelo Oriental",
+        "latitud": "4.537751",
+        "longitud": "-74.137648"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 6,
+      "fields": {
+        "name": "El Mochuelo II",
+        "latitud": "4.537751",
+        "longitud": "-74.137648"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 7,
+      "fields": {
+        "name": "Brazuelos de Santo Domingo",
+        "latitud": "4.508134",
+        "longitud": "-74.113659"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 8,
+      "fields": {
+        "name": "Esmeralda",
+        "latitud": "4.546328",
+        "longitud": "-74.153302"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 9,
+      "fields": {
+        "name": "Lagunitas",
+        "latitud": "4.507302",
+        "longitud": "-74.148486"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 10,
+      "fields": {
+        "name": "Paticos",
+        "latitud": "4.508027",
+        "longitud": "-74.148193"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 11,
+      "fields": {
+        "name": "Barranquitos",
+        "latitud": "4.506966",
+        "longitud": "-74.145301"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 12,
+      "fields": {
+        "name": "Arborizadora Baja",
+        "latitud": "4.573788",
+        "longitud": "-74.149706"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 13,
+      "fields": {
+        "name": "Atlanta",
+        "latitud": "4.584915",
+        "longitud": "-74.152238"
+      }
+    },
+    {
+      "model": "hr.Barrio",
+      "pk": 14,
+      "fields": {
+        "name": "El Ensueño",
+        "latitud": "4.582780",
+        "longitud": "-74.158035"
+      }
+    },
+    {
+        "model": "hr.Barrio",
+        "pk": 15,
+        "fields": {
+          "name": "La Playa",
+          "latitud": "4.562292",
+          "longitud": "-74.138285"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 16,
+        "fields": {
+          "name": "Madelena",
+          "latitud": "4.592141",
+          "longitud": "-74.158035"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 17,
+        "fields": {
+          "name": "Rafael Escamilla",
+          "latitud": "4.533826",
+          "longitud": "-74.142747"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 18,
+        "fields": {
+          "name": "Santa Helena",
+          "latitud": "4.552194",
+          "longitud": "-74.154628"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 19,
+        "fields": {
+          "name": "Santa Rosa Sur",
+          "latitud": "4.566947",
+          "longitud": "-74.164100"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 20,
+        "fields": {
+          "name": "Villa Helena",
+          "latitud": "4.564279",
+          "longitud": "-74.141210"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 21,
+        "fields": {
+          "name": "Casa linda",
+          "latitud": "4.568926",
+          "longitud": "-74.143808"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 22,
+        "fields": {
+          "name": "La Coruña",
+          "latitud": "4.577801",
+          "longitud": "-74.152627"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 23,
+        "fields": {
+          "name": "Protecho",
+          "latitud": "4.570254",
+          "longitud": "-74.146786"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 24,
+        "fields": {
+          "name": "San Francisco",
+          "latitud": "4.564573",
+          "longitud": "-74.146247"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 25,
+        "fields": {
+          "name": "Las Acacias",
+          "latitud": "4.560248",
+          "longitud": "-74.143723"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 26,
+        "fields": {
+          "name": "Candelaria La Nueva",
+          "latitud": "4.570339",
+          "longitud": "-74.152116"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 27,
+        "fields": {
+          "name": "Gibraltar",
+          "latitud": "4.556637",
+          "longitud": "-74.140205"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 28,
+        "fields": {
+          "name": "Colmena",
+          "latitud": "4.558614",
+          "longitud": "-74.165400"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 29,
+        "fields": {
+          "name": "La Casona",
+          "latitud": "4.582547",
+          "longitud": "-74.167643"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 30,
+        "fields": {
+          "name": "Juan José Rondón",
+          "latitud": "4.564231",
+          "longitud": "-74.152703"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 31,
+        "fields": {
+          "name": "San Luis Sur",
+          "latitud": "4.571068",
+          "longitud": "-74.157375"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 32,
+        "fields": {
+          "name": "San Fernando Sur",
+          "latitud": "4.577147",
+          "longitud": "-74.170343"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 33,
+        "fields": {
+          "name": "Santa Inés de la Acacia",
+          "latitud": "4.572657",
+          "longitud": "-74.169168"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 34,
+        "fields": {
+          "name": "Millan Los Sauces",
+          "latitud": "4.560699",
+          "longitud": "-74.146403"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 35,
+        "fields": {
+          "name": "Puerta del Llano",
+          "latitud": "4.560714",
+          "longitud": "-74.164329"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 36,
+        "fields": {
+          "name": "Sauces",
+          "latitud": "4.567047",
+          "longitud": "-74.158389"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 37,
+        "fields": {
+          "name": "Hortalizas",
+          "latitud": "4.568168",
+          "longitud": "-74.160257"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 38,
+        "fields": {
+          "name": "El Recuerdo",
+          "latitud": "4.536423",
+          "longitud": "-74.153301"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 39,
+        "fields": {
+          "name": "Álvaro Bernal Segura",
+          "latitud": "4.547440",
+          "longitud": "-74.147407"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 40,
+        "fields": {
+          "name": "Lucero Alto",
+          "latitud": "4.552618",
+          "longitud": "-74.146740"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 41,
+        "fields": {
+          "name": "Lucero Medio",
+          "latitud": "4.555079",
+          "longitud": "-74.144538"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 42,
+        "fields": {
+          "name": "Lucero Bajo",
+          "latitud": "4.553528",
+          "longitud": "-74.140329"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 43,
+        "fields": {
+          "name": "Domingo Laín",
+          "latitud": "4.555047",
+          "longitud": "-74.142238"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 44,
+        "fields": {
+          "name": "El Bosque",
+          "latitud": "4.576830",
+          "longitud": "-74.195668"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 45,
+        "fields": {
+          "name": "El Castillo",
+          "latitud": "4.582425",
+          "longitud": "-74.167689"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 46,
+        "fields": {
+          "name": "El Paraíso Mirador",
+          "latitud": "4.548241",
+          "longitud": "-74.163762"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 47,
+        "fields": {
+          "name": "Bella Flor",
+          "latitud": "4.544368",
+          "longitud": "-74.161211"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 48,
+        "fields": {
+          "name": "La Torre",
+          "latitud": "4.582668",
+          "longitud": "-74.168979"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 49,
+        "fields": {
+          "name": "Estrella del Sur",
+          "latitud": "4.546515",
+          "longitud": "-74.144803"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 50,
+        "fields": {
+          "name": "El Triunfo",
+          "latitud": "4.571584",
+          "longitud": "-74.154090"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 51,
+        "fields": {
+          "name": "Gibraltar Sur",
+          "latitud": "4.555995",
+          "longitud": "-74.141138"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 52,
+        "fields": {
+          "name": "Juan Pablo II",
+          "latitud": "4.555747",
+          "longitud": "-74.147420"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 53,
+        "fields": {
+          "name": "La Alameda",
+          "latitud": "4.551001",
+          "longitud": "-74.138382"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 54,
+        "fields": {
+          "name": "La Cabaña",
+          "latitud": "4.576536",
+          "longitud": "-74.168411"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 55,
+        "fields": {
+          "name": "La Escala",
+          "latitud": "4.582347",
+          "longitud": "-74.167089"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 56,
+        "fields": {
+          "name": "Las Manitas",
+          "latitud": "4.550283",
+          "longitud": "-74.151097"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 57,
+        "fields": {
+          "name": "Los Alpes",
+          "latitud": "4.539339",
+          "longitud": "-74.155356"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 58,
+        "fields": {
+          "name": "El Satélite",
+          "latitud": "4.582536",
+          "longitud": "-74.163154"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 59,
+        "fields": {
+          "name": "La Torre",
+          "latitud": "4.582668",
+          "longitud": "-74.169032"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 60,
+        "fields": {
+          "name": "Los Andes de Nutibara",
+          "latitud": "4.547925",
+          "longitud": "-74.152447"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 61,
+        "fields": {
+          "name": "La Estrella de Lagos",
+          "latitud": "4.582347",
+          "longitud": "-74.170568"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 62,
+        "fields": {
+          "name": "Ciudad Milagros",
+          "latitud": "4.555744",
+          "longitud": "-74.138440"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 63,
+        "fields": {
+          "name": "Compartir",
+          "latitud": "4.555714",
+          "longitud": "-74.145506"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 64,
+        "fields": {
+          "name": "Buenavista",
+          "latitud": "4.578647",
+          "longitud": "-74.170711"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 65,
+        "fields": {
+          "name": "Marandú",
+          "latitud": "4.557464",
+          "longitud": "-74.150369"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 66,
+        "fields": {
+          "name": "Meissen",
+          "latitud": "4.557961",
+          "longitud": "-74.137598"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 67,
+        "fields": {
+          "name": "Brisas del Volador",
+          "latitud": "4.546545",
+          "longitud": "-74.156005"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 68,
+        "fields": {
+          "name": "México",
+          "latitud": "4.579757",
+          "longitud": "-74.167368"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 69,
+        "fields": {
+          "name": "Nueva Colombia",
+          "latitud": "4.547806",
+          "longitud": "-74.150792"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 70,
+        "fields": {
+          "name": "Naciones Unidas",
+          "latitud": "4.539739",
+          "longitud": "-74.151204"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 71,
+        "fields": {
+          "name": "Tierra Linda",
+          "latitud": "4.541432",
+          "longitud": "-74.152257"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 72,
+        "fields": {
+          "name": "Vista Hermosa",
+          "latitud": "4.571867",
+          "longitud": "-74.163176"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 73,
+        "fields": {
+          "name": "Villas del Diamante",
+          "latitud": "4.553794",
+          "longitud": "-74.152813"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 74,
+        "fields": {
+          "name": "Villa Gloria",
+          "latitud": "4.551710",
+          "longitud": "-74.152919"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 75,
+        "fields": {
+          "name": "Capri",
+          "latitud": "4.552529",
+          "longitud": "-74.147415"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 76,
+        "fields": {
+          "name": "Arabia",
+          "latitud": "4.532573",
+          "longitud": "-74.147807"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 77,
+        "fields": {
+          "name": "Acapulco",
+          "latitud": "4.537981",
+          "longitud": "-74.133999"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 78,
+        "fields": {
+          "name": "Buenos Aires",
+          "latitud": "4.539319",
+          "longitud": "-74.140039"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 79,
+        "fields": {
+          "name": "Bogotá Sur",
+          "latitud": "4.542429",
+          "longitud": "-74.142861"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 80,
+        "fields": {
+          "name": "Divino Niño",
+          "latitud": "4.536729",
+          "longitud": "-74.139524"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 81,
+        "fields": {
+          "name": "Casa de Teja",
+          "latitud": "4.541089",
+          "longitud": "-74.135200"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 82,
+        "fields": {
+          "name": "El Consuelo",
+          "latitud": "4.560341",
+          "longitud": "-74.122534"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 83,
+        "fields": {
+          "name": "El Tesoro",
+          "latitud": "4.534459",
+          "longitud": "-74.146332"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 84,
+        "fields": {
+          "name": "Tesorito",
+          "latitud": "4.535467",
+          "longitud": "-74.147442"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 85,
+        "fields": {
+          "name": "El Mochuelo I",
+          "latitud": "4.537751",
+          "longitud": "-74.137648"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 86,
+        "fields": {
+          "name": "El Reflejo",
+          "latitud": "4.540858",
+          "longitud": "-74.138482"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 87,
+        "fields": {
+          "name": "La Cumbre",
+          "latitud": "4.536529",
+          "longitud": "-74.148693"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 88,
+        "fields": {
+          "name": "Los Duques",
+          "latitud": "4.578036",
+          "longitud": "-74.169279"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 89,
+        "fields": {
+          "name": "Inés Elvira",
+          "latitud": "4.577736",
+          "longitud": "-74.167989"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 90,
+        "fields": {
+          "name": "Monterey",
+          "latitud": "4.564536",
+          "longitud": "-74.171254"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 91,
+        "fields": {
+          "name": "Minuto de María",
+          "latitud": "4.536333",
+          "longitud": "-74.142818"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 92,
+        "fields": {
+          "name": "Ocho de Diciembre",
+          "latitud": "4.537193",
+          "longitud": "-74.148301"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 93,
+        "fields": {
+          "name": "Quiba",
+          "latitud": "4.576836",
+          "longitud": "-74.161143"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 94,
+        "fields": {
+          "name": "Potreritos",
+          "latitud": "4.567089",
+          "longitud": "-74.161318"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 95,
+        "fields": {
+          "name": "República de Venezuela",
+          "latitud": "4.563901",
+          "longitud": "-74.169149"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 96,
+        "fields": {
+          "name": "República de Canadá",
+          "latitud": "4.539339",
+          "longitud": "-74.155356"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 97,
+        "fields": {
+          "name": "San Rafael Sur",
+          "latitud": "4.533873",
+          "longitud": "-74.142915"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 98,
+        "fields": {
+          "name": "San Joaquín del Vaticano",
+          "latitud": "4.535076",
+          "longitud": "-74.143752"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 99,
+        "fields": {
+          "name": "Sotavento",
+          "latitud": "4.579668",
+          "longitud": "-74.172100"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 100,
+        "fields": {
+          "name": "Villa Diana López",
+          "latitud": "4.544160",
+          "longitud": "-74.139155"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 101,
+        "fields": {
+          "name": "Bella Estancia",
+          "latitud": "4.572993",
+          "longitud": "-74.166921"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 102,
+        "fields": {
+          "name": "Barlovento",
+          "latitud": "4.590917",
+          "longitud": "-74.166495"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 103,
+        "fields": {
+          "name": "Caracolí",
+          "latitud": "4.573509",
+          "longitud": "-74.171648"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 104,
+        "fields": {
+          "name": "Bonanza Sur",
+          "latitud": "4.562898",
+          "longitud": "-74.144114"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 105,
+        "fields": {
+          "name": "Casa Loma Casavianca",
+          "latitud": "4.588512",
+          "longitud": "-74.175122"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 106,
+        "fields": {
+          "name": "Cerro del Diamante",
+          "latitud": "4.570725",
+          "longitud": "-74.156600"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 107,
+        "fields": {
+          "name": "El Rosal",
+          "latitud": "4.573025",
+          "longitud": "-74.163100"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 108,
+        "fields": {
+          "name": "El Espino",
+          "latitud": "4.580808",
+          "longitud": "-74.177687"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 109,
+        "fields": {
+          "name": "Ismael Perdomo",
+          "latitud": "4.584902",
+          "longitud": "-74.169606"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 110,
+        "fields": {
+          "name": "El Porvenir",
+          "latitud": "4.532136",
+          "longitud": "-74.148349"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 111,
+        "fields": {
+          "name": "El Rincón del Porvenir",
+          "latitud": "4.575821",
+          "longitud": "-74.172594"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 112,
+        "fields": {
+          "name": "La Estancia",
+          "latitud": "4.595249",
+          "longitud": "-74.172526"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 113,
+        "fields": {
+          "name": "Galicia",
+          "latitud": "4.589679",
+          "longitud": "-74.169960"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 114,
+        "fields": {
+          "name": "La Carbonera",
+          "latitud": "4.577383",
+          "longitud": "-74.167924"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 115,
+        "fields": {
+          "name": "Mirador de la Estancia",
+          "latitud": "4.586190",
+          "longitud": "-74.177458"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 116,
+        "fields": {
+          "name": "Mirador de Primavera",
+          "latitud": "4.594283",
+          "longitud": "-74.180476"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 117,
+        "fields": {
+          "name": "Perdomo Alto",
+          "latitud": "4.584460",
+          "longitud": "-74.180428"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 118,
+        "fields": {
+          "name": "Rincón de Galicia",
+          "latitud": "4.587527",
+          "longitud": "-74.174936"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 119,
+        "fields": {
+          "name": "Rincón de la estancia",
+          "latitud": "4.592658",
+          "longitud": "-74.169104"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 120,
+        "fields": {
+          "name": "Rincón de la Valvanera",
+          "latitud": "4.582036",
+          "longitud": "-74.144111"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 121,
+        "fields": {
+          "name": "San Antonio del Mirador",
+          "latitud": "4.579054",
+          "longitud": "-74.173395"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 122,
+        "fields": {
+          "name": "San Isidro",
+          "latitud": "4.591440",
+          "longitud": "-74.181135"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 123,
+        "fields": {
+          "name": "María Cano",
+          "latitud": "4.589475",
+          "longitud": "-74.175060"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 124,
+        "fields": {
+          "name": "San Rafael de la Estancia",
+          "latitud": "4.589892",
+          "longitud": "-74.164488"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 125,
+        "fields": {
+          "name": "Santa Viviana",
+          "latitud": "4.575889",
+          "longitud": "-74.171781"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 126,
+        "fields": {
+          "name": "Santo Domingo",
+          "latitud": "4.577086",
+          "longitud": "-74.182193"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 127,
+        "fields": {
+          "name": "Sierra Morena",
+          "latitud": "4.577375",
+          "longitud": "-74.162554"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 128,
+        "fields": {
+          "name": "Arborizadora Alta",
+          "latitud": "4.571781",
+          "longitud": "-74.154924"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 129,
+        "fields": {
+          "name": "Bella Vista",
+          "latitud": "4.549479",
+          "longitud": "-74.146411"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 130,
+        "fields": {
+          "name": "Florida del Sur",
+          "latitud": "4.549958",
+          "longitud": "-74.137522"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 131,
+        "fields": {
+          "name": "Jerusalén",
+          "latitud": "4.574881",
+          "longitud": "-74.157291"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 132,
+        "fields": {
+          "name": "La Pradera",
+          "latitud": "4.569950",
+          "longitud": "-74.160490"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 133,
+        "fields": {
+          "name": "Las Brisas",
+          "latitud": "4.570656",
+          "longitud": "-74.165849"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 134,
+        "fields": {
+          "name": "Potosí",
+          "latitud": "4.569950",
+          "longitud": "-74.160490"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 135,
+        "fields": {
+          "name": "Las Vegas de Potosí",
+          "latitud": "4.575346",
+          "longitud": "-74.162754"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 136,
+        "fields": {
+          "name": "Villas de Bolívar",
+          "latitud": "4.564526",
+          "longitud": "-74.152367"
+        }
+      },
+      {
+        "model": "hr.Barrio",
+        "pk": 137,
+        "fields": {
+          "name": "Verona",
+          "latitud": "4.575298",
+          "longitud": "-74.157331"
+        }
+      }
+    ]
+  

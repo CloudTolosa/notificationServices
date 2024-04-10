@@ -33,6 +33,7 @@ class Barrio(models.Model):
     nombre = models.CharField(max_length=100)
     localidad = models.ForeignKey(Localidad,on_delete = models.SET_NULL,null=True)
 
+
     class Meta:
         ordering = ['nombre']
 

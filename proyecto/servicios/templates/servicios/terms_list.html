@@ -18,7 +18,7 @@
                 <div class="login-container">
                     <form class="login-form"  method="post">
                         {% csrf_token %}
-                        <h2 class="mb-4">Registrate</h2>
+                        <h2 class="mb-4">Terminos y condiciones</h2>
                         <div class="form-group">
                             <label for="numeroCelular">Número de Celular:</label>
                             <input type="tel" class="form-control" id="numeroCelular" name="username" placeholder="Ingresa tu número de celular" required>
@@ -29,9 +29,7 @@
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="checkbox">
-                            <label class="form-check-label" for="terminos">
-                                    Acepto los términos y condiciones
-                            </label>
+                            <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block" id="boton" disabled>Regístrese</button>
                     </form>
@@ -59,12 +57,12 @@
                             document.getElementById('map'), {zoom: 13, center: city_bolivar}
                         );
                         
-                        /*locations.forEach(function(location) {
+                        locations.forEach(function(location) {
                             var marker = new google.maps.Marker({
                                 position: location,
                                 map: map
                             });
-                        });*/
+                        });
                     }
                 </script>
                 <script>
