@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-(hmd_6n(sbw7yzki=1ul%#($-ffw8)hqpwxyf9^e@++kqi85x@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['myenvaws.eba-dmibvrci.us-west-2.elasticbeanstalk.com']
 AUTH_USER_MODEL  = 'servicios.UserProfile'
 
 # Application definition
@@ -38,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_crontab',
-    'django_cron',
+    #'django_cron',
     'nested_admin',
     'servicios',
     'ubicacion'
@@ -132,4 +133,7 @@ CRONJOBS = [
     ('0 13 * * *', 'servicios.views.scrapping'),
 ]
 
+
+
+#ALLOWED_HOSTS = ['tu-host.com', '127.0.0.1']
 
